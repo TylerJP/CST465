@@ -23,6 +23,6 @@ public partial class Page1 : System.Web.UI.Page
         user.Nickname = uxNickname.Text;
 
         Session["User"] = user;
-        Page.Response.Redirect("/Page2.aspx");
+        Page.Response.Redirect("~/Account/Page2.aspx");
     }
 }

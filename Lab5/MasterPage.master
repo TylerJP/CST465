@@ -11,8 +11,15 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    
+
     <form id="form1" runat="server">
+        
     <div>
+            <asp:sitemapdatasource ID="ux_sitemap" StartingNodeUrl="~/Default.aspx" ShowStartingNode="false" runat="server" ></asp:sitemapdatasource>
+            <asp:menu  DataSourceID="ux_sitemap" runat="server"></asp:menu>
+            <asp:sitemappath PathSeparator=" | " runat="server" ></asp:sitemappath>
+
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
