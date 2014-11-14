@@ -1,0 +1,19 @@
+﻿body {
+}
+
+literal
+{
+    font-weight:bold;
+    color:green;
+}
+
+span 
+{
+    color:blue;
+    font-weight:bold;
+}
+
+h1 
+{
+    color:green;
+}
